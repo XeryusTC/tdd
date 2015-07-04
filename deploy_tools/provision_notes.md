@@ -19,7 +19,11 @@ eg, on Debian:
 
 ## Upstart job
 * see gunicorn-upstart.template.conf
-* replace SITENAME with, eg, stagin.my-domain.com
+* replace SITENAME with, eg, staging.my-domain.com
+
+## Systemd service
+* see gunicorn-systemd.template.conf
+* replace SITENAME with, eg, staging.my-domain.com
 
 ## Folder structure:
 assume we have a user account under /home/username
