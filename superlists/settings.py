@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     'lists',
     'accounts',
     'gunicorn',
+    'functional_tests',
 )
 
 MIDDLEWARE_CLASSES = (
